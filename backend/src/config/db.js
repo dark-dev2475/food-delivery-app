@@ -1,7 +1,7 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const mongoose = require("mongoose")
 
-const uri = "mongodb://localhost:27017/orderingfood";
+const uri = "mongodb+srv://paagalhaikya2475:gagan2475@cluster0.usooivb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const client = new MongoClient(uri, {
     serverApi: {
